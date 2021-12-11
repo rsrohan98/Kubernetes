@@ -5,6 +5,14 @@ kubectl get Pods
    kubectl get pods -o json  --> gives output in JSON format
    kubectl get pods -o yaml  --> gives output in YAML format
    kubectl get pods -w --> W is used to continuosly watch the POD
+   
+   # Explanation
+   kubectl explain pod --> this is used to describe Resources. Like it will have API version, kind, etc
+   
+   kubetctl describe pod <podname> --> this shows all pod related details
+   
+   # Delete Resources
+   
    kubectl delete pod podname --> used to delete any resource . in this case its POD.
    kubectl delete pods --all
-   kubectl describe pods podname
+  
