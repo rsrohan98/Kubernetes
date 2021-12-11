@@ -1,9 +1,3 @@
 # Kubernetes Architecture
 
-Step-01: Introduction
-
-Understand about AKS Cluster
-
-Discuss about Kubernetes Architecture from AKS Cluster perspective
-
-Step-02: Create AKS Cluster
+![image](https://user-images.githubusercontent.com/63234624/145684948-045eb451-f241-4e15-9d50-42279a58101c.png)
