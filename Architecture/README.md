@@ -1,3 +1,5 @@
 # Kubernetes Architecture
 
-![image](https://user-images.githubusercontent.com/63234624/145684948-045eb451-f241-4e15-9d50-42279a58101c.png)
+
+
+![image](https://user-images.githubusercontent.com/63234624/145684973-0c1d9f5a-c7e0-4a13-9a26-b92e6692bb91.png)
