@@ -31,9 +31,9 @@ We can have one or more Master Nodes.
                            
 We can have one or more Worker Nodes
 
-* Container Runtine: This contains the container runtime like Docker,Rocket etc.
+* _Container Runtine_: This contains the container runtime like Docker,Rocket etc.
 
 * Kubelet : This is agent which is installed on all worker nodes. This is heart of Worker Nodes.
             This components helps Master node if Node is up and working fine.
             
-* Kube Proxy : 
+* Kube Proxy : This is Network proxy which runs on all worker nodes. Basically it is used to set Network rules for your Worker Nodes.
