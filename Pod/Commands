@@ -1,1 +1,10 @@
-kubectl get pods
+kubectl get Pods
+   kubectl get pods --all-namespace
+   kubectl get Nodes
+   kubectl get pods -o wide  --> -o is used to get output in single line which shows to which machine this POD belongs
+   kubectl get pods -o json  --> gives output in JSON format
+   kubectl get pods -o yaml  --> gives output in YAML format
+   kubectl get pods -w --> W is used to continuosly watch the POD
+   kubectl delete pod podname --> used to delete any resource . in this case its POD.
+   kubectl delete pods --all
+   kubectl describe pods podname
