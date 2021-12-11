@@ -32,3 +32,10 @@ Each Pod gets a unique IP hence all conatiners running inside POD share same IP.
 
 * Every POD has a Pause container which stores all n/w or ports related info with it.so even if main container is lost/destroyed
   and newly created it will get same Ip for POD. but if POD is gone then new POD is created and gets new IP.
+
+
+Reference Link:
+
+https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/
+https://www.youtube.com/watch?v=5cNrTU6o3Fw
+
