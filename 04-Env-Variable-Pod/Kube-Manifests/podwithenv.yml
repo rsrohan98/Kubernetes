@@ -1,1 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podwithenv
+  labels:
+    name: myapp2
+    env: dev
+    project: Devops
+spec:
+  containers:
+  - name: myappwithenv
+    image: nginx
+    env: 
+     - name: Fname
+       value: Rohan
+     - name: Lname
+       value: Sonwane
+    ports: 
+      - containerPort: 80
 
