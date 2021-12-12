@@ -6,16 +6,16 @@
 
 * kubectl exec -it mypod env ( this gives you all env variables for the POD)
 
-if we have to change command in a container that runs in a pod, use [args:] option in Yaml file.
-Refer argspod.yml for reference
+* if we have to change command in a container that runs in a pod, use [args:] option in Yaml file.
 
-in Docker image file we have below 2 commnads,
 
--- ENTRYPOINT["sleep"] --> this is command that is fired when container starts
--- CMD["5"] --> this when used with ENTRYPOINT can act as argument to command mentioned in ENTRYPOINT. 
-                CMD is the command that run in container as process which keeps container alive.
+* In Docker image file we have below 2 commnads,
 
-So in POD definition filw, if we have replace above 2 for iamge used to run conatiner , use below,
+   ** ENTRYPOINT["sleep"] --> this is command that is fired when container starts
+   ** CMD["5"] --> this when used with ENTRYPOINT can act as argument to command mentioned in ENTRYPOINT. 
+                  CMD is the command that run in container as process which keeps container alive.
 
--- command --> used to overwrite ENTRTYPOINT of image 
--- args    --> used to overwrite CMD of image
+So in POD definition file, if we have replace above 2 for iamge used to run conatiner , use below,
+
+    -- command --> used to overwrite ENTRTYPOINT of image 
+    -- args    --> used to overwrite CMD of image
