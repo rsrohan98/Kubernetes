@@ -6,9 +6,7 @@ Space after colon is mandatory to differentiate key and value
 
 # Defining simple key value pairs
 name: kalyan
-
 age: 23
-
 city: Hyderabad
 
 ## Step-02: Dictionary / Map
@@ -18,9 +16,7 @@ Equal amount of blank space required for all the items under a dictionary
 
 person:
   name: kalyan
-  
   age: 23
-  
   city: Hyderabad
 
 ## Step-03: Array / Lists
@@ -28,17 +24,11 @@ Dash indicates an element of an array
 
 person: # Dictionary
   name: kalyan
-  
   age: 23
-  
   city: Hyderabad
-  
   hobbies: # List
-  
-    - cycling
-    
-    - cookines
-    
+   - cycling
+   - cookines
   hobbies: [cycling, cooking]   # List with a differnt notation  
 
 ## Step-04: Multiple Lists
