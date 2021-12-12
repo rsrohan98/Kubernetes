@@ -2,7 +2,6 @@
 
 
 Reference Links: https://devops4solutions.medium.com/kubernetes-labels-and-annotation-3bb0a5a22193
-
                  https://ishanul.medium.com/importance-of-labeling-and-annotating-your-kubernetes-objects-dee5d18d741c
                  
 
