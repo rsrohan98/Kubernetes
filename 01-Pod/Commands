@@ -12,6 +12,12 @@ kubectl get Pods
    
    kubetctl describe pod <podname> --> this shows all pod related details
    
+   kubectl explain pod --recursive
+   
+   kubectl edit pod podname
+   
+   kubectl diff -f pod.yml
+   
    # Delete Resources
    
    kubectl delete pod podname --> used to delete any resource . in this case its POD.
