@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: argspod
+  labels:
+    env: dev
+spec:
+  containers:
+  - name: argscontainer
+    image: coolgourav147/nginx-custom
+    env:  
+    - name: "tab1"
+      value: "env"
+    args: ["sleep","50"]
