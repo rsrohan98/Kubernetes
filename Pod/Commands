@@ -5,6 +5,7 @@ kubectl get Pods
    kubectl get pods -o json  --> gives output in JSON format
    kubectl get pods -o yaml  --> gives output in YAML format
    kubectl get pods -w --> W is used to continuosly watch the POD
+   kubectl get pods -o wide --show-labels
    
    # Explanation
    kubectl explain pod --> this is used to describe Resources. Like it will have API version, kind, etc
