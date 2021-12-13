@@ -43,36 +43,54 @@ By default, Kubernetes assumes that any pod or container in the given pod will r
 ## Example Pod Definition To understand how you can manage resources & limits :
 
 apiVersion: v1
+
 kind: Pod
+
 metadata:
+
   name: web-app
+  
 spec:
+
   containers:
+  
   - name: app
+  
     image: nginx
+    
     resources:
+    
       requests:
+      
         memory: "128Mi"
+        
         cpu: 0.5
+        
       limits:
+      
         memory: "256Mi"
+        
         cpu: 1
+        
         
         
         
 ## Resource specifications in the sample-pod.YAML file:
 
-As can be seen in the YAML file above, we have allocated the resource request parameter along with the limit, by defining in our pod container
-resources:
+As can be seen in the YAML file above, we have allocated the resource request parameter along with the limit, by defining in our pod container resources:
 
 resources:
+
       requests:
+      
         memory: "128Mi"
+        
         cpu: 0.5
 
-and by defining
-limits:
+and by defining limits:
 
 limits:
+
         memory: "256Mi"
+        
         cpu: 1
