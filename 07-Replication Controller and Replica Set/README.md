@@ -191,6 +191,7 @@ spec:
   replicas: 3
   
   selector:
+    
     matchLabels:
     
       env: prod
