@@ -17,4 +17,4 @@ https://www.youtube.com/watch?v=No0vQcYmNUI&list=PL6XT0grm_TfhFKUv_KI_DTVr0TCinc
   direct service call will not work. 
   To tackle this K8 provide Service DNS as below. Access service from different namespace using below command,
 
-   curl <servicename>.<namespacename>.svc.cluster.local
+   curl <servicename>. <namespacename>. svc.cluster.local
