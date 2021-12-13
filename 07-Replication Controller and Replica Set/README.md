@@ -35,7 +35,6 @@ metadata:
 spec:
 
   replicas: 3
-  
   selector:
   
     app: nginx
