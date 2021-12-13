@@ -1,20 +1,26 @@
-#Replication Controller
+# Replication Controller
 
-Replication controller, also termed as rc in short, is a wrapper on pod. The replication controller provides an additional functionality to the pods which is providing replicas.
+Replication controller, also termed as rc in short, is a wrapper on pod. 
 
-The replication controller monitors pods and automatically restarts them if they fail. Also, if the whole node fails, the replication controller respawn all the pods of that node on some different node whereas in case of pods, once they dies, they won’t be spawn again unless and until they are wrapped around replication controller or replica set.
+The replication controller provides an additional functionality to the pods which is providing replicas.
 
-The scope of replication controller is decided by the label-selectors. Whichever pod matches its label with the provided selector, that will be managed by the replication controller.
+The replication controller monitors pods and automatically restarts them if they fail. Also, if the whole node fails, the replication controller respawn all the pods of that 
 
-A replication controller continuously monitors the list of running pods by running a reconciliation loop and ensures that the specified number of replicas are always running. It maintains the replicas in two ways:
+node on some different node whereas in case of pods, once they dies, they won’t be spawn again unless and until they are wrapped around replication controller or replica set.
 
-By creating new replicas if the actual replicas are less than the desired replicas, and
-By removing extra replicas if the actual replicas are more than the desired replicas. This can be possible if,
-A pod is created of the same type manually.
-A label of an existing pod’s changes to a value which is same as the replication controller label-selector.
-Someone decreases the desired number of pods.
-Replication Controller manifest
-Just as pod, the replication controller also has a spec file which, in addition to podSpecs defines the required number of replicas as shown below:
+The scope of replication controller is decided by the label-selectors. Whichever pod matches its label with the provided selector, that will be managed by the replication 
+
+controller.
+
+A replication controller continuously monitors the list of running pods by running a reconciliation loop and ensures that the specified number of replicas are always running. It 
+
+maintains the replicas in two ways:
+
+By creating new replicas if the actual replicas are less than the desired replicas, and By removing extra replicas if the actual replicas are more than the desired replicas. 
+
+This can be possible if,A pod is created of the same type manually.A label of an existing pod’s changes to a value which is same as the replication controller label-selector.
+
+Someone decreases the desired number of pods. Replication Controller manifest Just as pod, the replication controller also has a spec file which, in addition to podSpecs defines the required number of replicas as shown below:
 
 ---
 apiVersion: v1
