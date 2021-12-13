@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+
+metadata:
+  name: first-rs
+  
+spec:
+  replicas: 3
+  selector:
+    matchExpressions:
+      - key: name
+        operator: In
+        values: 
+          - myapp
+      - key: tier
+        operator: NotIn
+        values: 
+          - frontend
+    
+  template:
+   metadata:
+     name: mypod2
+     labels:
+       name: myapp
+       tier: frontend
+   spec:
+      containers:
+       - image: coolgourav147/nginx-custom
+         name: cont3
