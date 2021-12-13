@@ -19,8 +19,9 @@ iii. Kube-node-lease : This namespace contains resources which helps in maintian
 iv. Kube-public : This namespace contains resources which can be exposed outside of cluster without any authentication. eg: kubectl cluster-info
                   This can be access eg using Curl or any other exposed appp.
                   
-                  ![image](https://user-images.githubusercontent.com/63234624/145856489-20e5c70b-9488-4196-9d59-a1925d737180.png)\
-                  
+                 
+                  ![image](https://user-images.githubusercontent.com/63234624/145856693-e320a05e-1028-4143-9e43-52b8d277e053.png)
+
 
 
 
