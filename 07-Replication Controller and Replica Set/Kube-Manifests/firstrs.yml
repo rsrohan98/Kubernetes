@@ -11,7 +11,8 @@ spec:
       - key: name
         operator: In
         values: 
-          - myapp
+          - myapp1
+          - myapp2
       - key: tier
         operator: NotIn
         values: 
