@@ -19,9 +19,13 @@ iii. Kube-node-lease : This namespace contains resources which helps in maintian
 iv. Kube-public : This namespace contains resources which can be exposed outside of cluster without any authentication. eg: kubectl cluster-info
                   This can be access eg using Curl or any other exposed appp.
                   
-                 
-                  ![image](https://user-images.githubusercontent.com/63234624/145856693-e320a05e-1028-4143-9e43-52b8d277e053.png)
-
+                     kubectl cluster-info
+                     
+                     O/P: 
+                     
+                     Kubernetes master is running at https://127.0.0.1:65081
+                     
+                     KubeDNS is running at https://127.0.0.1:65081/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
 
 
