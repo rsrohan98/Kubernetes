@@ -16,13 +16,13 @@ we are able to use config maps by relating its name and as a volume.
 
 You can create config maps from directories, files, or literal values using kubectl create configmap.
 
-/* Creating ConfigMap manually */
+## _Creating ConfigMap manually_
 
 * kubectl create configmap c1 --from-literal=database_id="root" --from-literal=database_pwd="abc"
 
 * kubectl describe cm C1
 
-/*Creating configmap from file/files*/
+## _Creating configmap from file/files_
 
 * kubectl create configmap c2 --from-file=application.properties
 
@@ -30,10 +30,10 @@ You can create config maps from directories, files, or literal values using kube
 
 If we have many files then above command becomes difficult. 
 
-/* Creating configmap using directory */
+## _Creating configmap using directory_
 
 * kubectl create configmap c4 --from-file=/app/sas_dev/application/
 
-/* Creating Configmap as ENV file */
+## _Creating Configmap as ENV file_
 
 * kubectl create configmap c5 --from-env-file=abc.sh
