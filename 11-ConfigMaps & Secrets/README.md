@@ -1,3 +1,5 @@
+# ConfigMaps
+
 ConfigMaps are Kubernetes objects that allow you to separate configuration data/files from image content to keep containerized applications portable.
 
 ConfigMaps bind configuration files, command-line arguments, surroundings variables, port numbers, and alternative configuration artifacts to your Pods containers and system parts at run-time.
@@ -7,3 +9,5 @@ ConfigMaps are helpful for storing and sharing non-sensitive, unencrypted config
 Like Secrets, you’ll be able to produce config maps from files and with yaml declaration.
 
 we are able to use config maps by relating its name and as a volume.
+
+![image](https://user-images.githubusercontent.com/63234624/145948897-6bb5e0f0-43e1-4d43-a37e-a64abc9f2987.png)
