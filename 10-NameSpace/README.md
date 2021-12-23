@@ -1,6 +1,6 @@
 # NameSpaces
 
-## Read below blog and got through videos mentioned below,
+## Read below blog and go through videos mentioned below,
 
 https://ngugijoan.medium.com/understanding-kubernetes-namespaces-c2f81d0b94a5
 
