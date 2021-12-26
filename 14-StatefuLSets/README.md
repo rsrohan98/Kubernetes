@@ -1,0 +1,1 @@
+Go through Mumshad's "certified-kubernetes-application-developer" section "state Persistence" video no 114 - 117
