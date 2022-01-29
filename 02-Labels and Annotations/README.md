@@ -14,7 +14,7 @@ Reference Links: https://devops4solutions.medium.com/kubernetes-labels-and-annot
 
 * kubectl label pods --all proj=UBS (Giving labels to all POD's in current Namespace)
 
-**Selecting Kubernetes Objects Using Label Selectors:
+** Selecting Kubernetes Objects Using Label Selectors:
 
 kubectl get pods -l app=nginx1
 
