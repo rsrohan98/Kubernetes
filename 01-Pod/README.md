@@ -5,7 +5,7 @@ conatiner running in it.
 Each Pod gets a unique IP hence all conatiners running inside POD share same IP. And Ports available are also same. so if 1 container
  uses por 80 of the host i,e, POD then its not available for other container in that POD.
 
-* Why was it required to have POD in K8. As we know application is run as container so why cant we run directly run contianer on Nodes??
+* Why was it required to have POD in K8. As we know application runs as container so why cant we run directly run contianer on Nodes??
 
 **Answer**
 
