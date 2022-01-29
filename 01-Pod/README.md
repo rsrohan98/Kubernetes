@@ -37,5 +37,6 @@ Each Pod gets a unique IP hence all conatiners running inside POD share same IP.
 Reference Link:
 
 https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/
+
 https://www.youtube.com/watch?v=5cNrTU6o3Fw
 
